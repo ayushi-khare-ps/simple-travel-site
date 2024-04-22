@@ -36,3 +36,24 @@ nav{
     background-color: rgb(102, 63, 15);
     color: antiquewhite;
 }
+
+main,footer p {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+    width: 80vw;
+
+    
+}
+
+main p{
+    text-align: justify;
+}
+
+footer p{
+    font-size: small;
+    text-align: center;
+    
+}
