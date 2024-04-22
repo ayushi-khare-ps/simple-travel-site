@@ -52,6 +52,16 @@ main p{
     text-align: justify;
 }
 
+main table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main img {
+    width: 250px;
+    height: 180px;
+}
+
 footer p{
     font-size: small;
     text-align: center;
