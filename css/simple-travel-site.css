@@ -14,18 +14,29 @@ h1 {
     color: rgb(60, 38, 21);
 }
 
-nav{
-    width: 80vw;
-    height: 10vh;
+nav {
+    display: block;
+    width: 100vw;
+    height: 5vh;
+    background-color: black;
 }
 
+#nav_bar a {
+    text-decoration: none;
+    color: bisque;
 
+}
+
+#nav_bar ul {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 #nav_bar li {
     display: block;
     float: left;
     padding: 7px;
-    background-color: rgb(236, 190, 158);
     color: rgb(71, 17, 17);
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 3px;
@@ -37,7 +48,8 @@ nav{
     color: antiquewhite;
 }
 
-main,footer p {
+main,
+footer p {
     margin-left: auto;
     margin-right: auto;
     margin-top: auto;
@@ -45,10 +57,10 @@ main,footer p {
     display: block;
     width: 80vw;
 
-    
+
 }
 
-main p{
+main p {
     text-align: justify;
 }
 
@@ -62,8 +74,8 @@ main img {
     height: 180px;
 }
 
-footer p{
+footer p {
     font-size: small;
     text-align: center;
-    
+
 }
