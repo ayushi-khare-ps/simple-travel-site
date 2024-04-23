@@ -62,20 +62,31 @@ footer p {
 
 main p {
     text-align: justify;
+    font-family: Garamond, serif;
 }
 
 main table {
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
 }
 
 main img {
     width: 250px;
     height: 180px;
+    margin: 5px;
+    border-radius: 5px;
+    
 }
 
 footer p {
     font-size: small;
     text-align: center;
 
+}
+
+.img_table, td {
+    border: 2px groove rgb(85, 18, 18);
+    border-collapse: collapse;
+    
 }
